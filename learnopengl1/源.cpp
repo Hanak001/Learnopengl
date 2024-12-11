@@ -7,6 +7,8 @@
 #include <glm/gtc/type_ptr.hpp>
 
 #include "Myshader.h"
+#include "Camera.h"
+
 #define STB_IMAGE_IMPLEMENTATION
 #include "stb_image.h"
 
@@ -14,11 +16,26 @@ float mix = 0.2;
 const unsigned int screenWidth = 800;
 const unsigned int screenHeight = 600;
 
+glm::vec3 cameraPos = glm::vec3(0.0f, 0.0f, 3.0f);
+glm::vec3 cameraFront = glm::vec3(0.0f, 0.0f, -1.0f);
+glm::vec3 cameraUp = glm::vec3(0.0f, 1.0f, 0.0f);
+
+
+float deltaTime = 0.0f; // 当前帧与上一帧的时间差
+float lastFrame = 0.0f; // 上一帧的时间
+
+float lastX = 400, lastY = 300;
+float yaw = -90, pitch = 0;
+
+bool firstMouse = true;
+Camera mycamera(cameraPos, cameraUp, yaw, pitch);
+
 void framebuffer_size_callback(GLFWwindow* window, int width, int height)
 {
     glViewport(0, 0, width, height);
 }
 void processInput(GLFWwindow* window,float& mix) {
+    float cameraSpeed = 2.5f * deltaTime;
     if (glfwGetKey(window, GLFW_KEY_ESCAPE) == GLFW_PRESS) {
         glfwSetWindowShouldClose(window, true);
     }
@@ -30,9 +47,35 @@ void processInput(GLFWwindow* window,float& mix) {
         mix -= 0.01;
         if (mix < 0)mix = 0;
     }
+    if (glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS)
+        mycamera.ProcessKeyboard(FORWARD, deltaTime);
+    if (glfwGetKey(window, GLFW_KEY_S) == GLFW_PRESS)
+        mycamera.ProcessKeyboard(BACKWARD, deltaTime);
+    if (glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)
+        mycamera.ProcessKeyboard(LEFT, deltaTime);
+    if (glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)
+        mycamera.ProcessKeyboard(RIGHT, deltaTime);
+    cameraPos.y = 0.0f;
 
 }
+void mouse_callback(GLFWwindow* window, double xpos, double ypos) {
+    if (firstMouse) 
+    {
+        lastX = xpos;
+        lastY = ypos;
+        firstMouse = false;
+    }
+    float xoffset = xpos - lastX;
+    float yoffset = lastY - ypos; // 注意这里是相反的，因为y坐标是从底部往顶部依次增大的
+    lastX = xpos;
+    lastY = ypos;
 
+    mycamera.ProcessMouseMovement(xoffset, yoffset);
+
+}
+void scroll_callback(GLFWwindow* window, double xpos, double ypos) {
+    mycamera.ProcessMouseScroll(ypos);
+}
 int main() {
     
 
@@ -57,6 +100,9 @@ int main() {
     }
     glViewport(0, 0, screenWidth, screenHeight);
     glfwSetFramebufferSizeCallback(window, framebuffer_size_callback);
+    glfwSetInputMode(window, GLFW_CURSOR, GLFW_CURSOR_DISABLED);
+    glfwSetCursorPosCallback(window, mouse_callback);
+    glfwSetScrollCallback(window, scroll_callback);
 
 
     unsigned int texture1;
@@ -152,6 +198,19 @@ int main() {
         glm::vec3(1.5f,  0.2f, -1.5f),
         glm::vec3(-1.3f,  1.0f, -1.5f)
     };
+    
+
+    //glm::vec3 cameraTarget = glm::vec3(0.0f, 0.0f, 0.0f);
+    /*glm::vec3 cameraDirection = glm::normalize(cameraPos - cameraTarget);
+    glm::vec3 up = glm::vec3(0.0f, 1.0f, 0.0f);
+    glm::vec3 cameraRight = glm::normalize(glm::cross(up, cameraDirection));
+    glm::vec3 cameraUp = glm::cross(cameraDirection, cameraRight);*/
+
+    
+
+    float radius = 10.0f;
+    
+
     unsigned int indices[] = {
         0, 1, 3, // first triangle
         1, 2, 3  // second triangle
@@ -202,6 +261,9 @@ int main() {
     glEnable(GL_DEPTH_TEST);
     while (!glfwWindowShouldClose(window))
     {
+        float currentFrame = glfwGetTime();
+        deltaTime = currentFrame - lastFrame;
+        lastFrame = currentFrame;
         
 
         processInput(window,mix);
@@ -215,15 +277,22 @@ int main() {
         glActiveTexture(GL_TEXTURE1);
         glBindTexture(GL_TEXTURE_2D, texture2);
 
+
+        
+
         myshader.use();
         //glm::mat4 model;
-        glm::mat4 view;
+        //glm::mat4 view;
         glm::mat4 projection;
-
+        glm::mat4 view;
+        view = mycamera.GetViewMatrix();
         //model = glm::rotate(model, (float)glfwGetTime() * glm::radians(50.0f), glm::vec3(0.5f, 1.0f, 0.0f));
-        view = glm::translate(view, glm::vec3(0.0f, 0.0f, -3.0f));
-        projection = glm::perspective(glm::radians(45.0f), (float)screenWidth / (float)screenHeight, 0.1f, 100.0f);
+        //view = glm::translate(view, glm::vec3(0.0f, 0.0f, -3.0f));
+        projection = glm::perspective(glm::radians(mycamera.Zoom), (float)screenWidth / (float)screenHeight, 0.1f, 100.0f);
+        float camX = sin(glfwGetTime()) * radius;
+        float camZ = cos(glfwGetTime()) * radius;
         
+
         //unsigned int modelLoc = glGetUniformLocation(myshader.ID, "model");
         unsigned int viewLoc = glGetUniformLocation(myshader.ID, "view");
         unsigned int projLoc = glGetUniformLocation(myshader.ID, "projection");
