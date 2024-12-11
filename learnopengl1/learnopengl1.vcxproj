@@ -137,12 +137,13 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Camera.h" />
-    <ClInclude Include="Myshader.h" />
+    <ClInclude Include="Shader.h" />
     <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="4_1_texture.fs" />
-    <None Include="4_1_texture.vs" />
+    <None Include="cube.fs" />
+    <None Include="cube.vs" />
+    <None Include="light.fs" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

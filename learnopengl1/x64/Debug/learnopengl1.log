@@ -1,18 +1,16 @@
 ﻿  源.cpp
-E:\learnopengl\project\learnopengl1\learnopengl1\Myshader.h(2,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
+E:\learnopengl\project\learnopengl1\learnopengl1\Shader.h(2,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
   (编译源文件“源.cpp”)
   
 E:\learnopengl\project\learnopengl1\learnopengl1\源.cpp(15,11): warning C4305: “初始化”: 从“double”到“float”截断
-E:\learnopengl\project\learnopengl1\learnopengl1\源.cpp(43,20): warning C4305: “+=”: 从“double”到“float”截断
-E:\learnopengl\project\learnopengl1\learnopengl1\源.cpp(47,20): warning C4305: “-=”: 从“double”到“float”截断
-E:\learnopengl\project\learnopengl1\learnopengl1\源.cpp(64,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\learnopengl\project\learnopengl1\learnopengl1\源.cpp(44,20): warning C4305: “+=”: 从“double”到“float”截断
+E:\learnopengl\project\learnopengl1\learnopengl1\源.cpp(48,20): warning C4305: “-=”: 从“double”到“float”截断
 E:\learnopengl\project\learnopengl1\learnopengl1\源.cpp(65,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-E:\learnopengl\project\learnopengl1\learnopengl1\源.cpp(68,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\learnopengl\project\learnopengl1\learnopengl1\源.cpp(66,17): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
 E:\learnopengl\project\learnopengl1\learnopengl1\源.cpp(69,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-E:\learnopengl\project\learnopengl1\learnopengl1\源.cpp(70,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\learnopengl\project\learnopengl1\learnopengl1\源.cpp(70,19): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
 E:\learnopengl\project\learnopengl1\learnopengl1\源.cpp(71,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
-E:\learnopengl\project\learnopengl1\learnopengl1\源.cpp(77,33): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
-E:\learnopengl\project\learnopengl1\learnopengl1\源.cpp(264,28): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-E:\learnopengl\project\learnopengl1\learnopengl1\源.cpp(292,20): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
-E:\learnopengl\project\learnopengl1\learnopengl1\源.cpp(293,20): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\learnopengl\project\learnopengl1\learnopengl1\源.cpp(72,13): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+E:\learnopengl\project\learnopengl1\learnopengl1\源.cpp(78,33): warning C4244: “参数”: 从“double”转换到“float”，可能丢失数据
+E:\learnopengl\project\learnopengl1\learnopengl1\源.cpp(276,28): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
   learnopengl1.vcxproj -> E:\learnopengl\project\learnopengl1\x64\Debug\learnopengl1.exe

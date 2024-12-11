@@ -23,7 +23,7 @@
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Myshader.h">
+    <ClInclude Include="Shader.h">
       <Filter>头文件</Filter>
     </ClInclude>
     <ClInclude Include="stb_image.h">
@@ -34,10 +34,13 @@
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <None Include="4_1_texture.vs">
+    <None Include="cube.vs">
       <Filter>源文件</Filter>
     </None>
-    <None Include="4_1_texture.fs">
+    <None Include="cube.fs">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="light.fs">
       <Filter>源文件</Filter>
     </None>
   </ItemGroup>
