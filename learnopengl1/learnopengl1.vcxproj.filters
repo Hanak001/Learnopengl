@@ -32,6 +32,12 @@
     <ClInclude Include="Camera.h">
       <Filter>头文件</Filter>
     </ClInclude>
+    <ClInclude Include="mesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="model.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <None Include="cube.vs">
@@ -44,6 +50,12 @@
       <Filter>源文件</Filter>
     </None>
     <None Include="light.vs">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="model.vs">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="model.fs">
       <Filter>源文件</Filter>
     </None>
   </ItemGroup>
