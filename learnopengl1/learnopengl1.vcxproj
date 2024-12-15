@@ -72,7 +72,7 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <LibraryPath>E:\learnopengl\Lib;$(LibraryPath)</LibraryPath>
-    <IncludePath>E:\learnopengl\Include;$(IncludePath)</IncludePath>
+    <IncludePath>E:\learnopengl\project\learnopengl1\learnopengl1;E:\learnopengl\Include;$(IncludePath)</IncludePath>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
@@ -136,15 +136,16 @@
     <ClCompile Include="源.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="Camera.h" />
+    <ClInclude Include="camera.h" />
     <ClInclude Include="mesh.h" />
     <ClInclude Include="model.h" />
-    <ClInclude Include="Shader.h" />
+    <ClInclude Include="shader.h" />
     <ClInclude Include="stb_image.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include="cube.fs" />
     <None Include="cube.vs" />
+    <None Include="frame.fs" />
     <None Include="light.fs" />
     <None Include="light.vs" />
     <None Include="model.fs" />

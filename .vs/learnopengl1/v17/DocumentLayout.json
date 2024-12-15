@@ -3,52 +3,20 @@
   "WorkspaceRootPath": "E:\\learnopengl\\project\\learnopengl1\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\\u6E90.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|solutionrelative:learnopengl1\\\u6E90.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\frame.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
+      "RelativeMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|solutionrelative:learnopengl1\\frame.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\model.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
       "RelativeMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|solutionrelative:learnopengl1\\model.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\model.vs||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|solutionrelative:learnopengl1\\model.vs||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\\u6E90.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|solutionrelative:learnopengl1\\\u6E90.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|solutionrelative:learnopengl1\\model.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\Shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|solutionrelative:learnopengl1\\Shader.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|solutionrelative:learnopengl1\\mesh.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\cube.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
-      "RelativeMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|solutionrelative:learnopengl1\\cube.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\cube.vs||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|solutionrelative:learnopengl1\\cube.vs||{8B382828-6202-11D1-8870-0000F87579D2}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\stb_image.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|solutionrelative:learnopengl1\\stb_image.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|solutionrelative:learnopengl1\\Camera.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\light.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
-      "RelativeMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|solutionrelative:learnopengl1\\light.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\light.vs||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|solutionrelative:learnopengl1\\light.vs||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,157 +26,58 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Shader.h",
-              "DocumentMoniker": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\Shader.h",
-              "RelativeDocumentMoniker": "learnopengl1\\Shader.h",
-              "ToolTip": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\Shader.h",
-              "RelativeToolTip": "learnopengl1\\Shader.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAIIAAABYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-14T14:49:27.16Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "model.fs",
-              "DocumentMoniker": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\model.fs",
-              "RelativeDocumentMoniker": "learnopengl1\\model.fs",
-              "ToolTip": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\model.fs",
-              "RelativeToolTip": "learnopengl1\\model.fs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-14T14:37:19.348Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "model.vs",
               "DocumentMoniker": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\model.vs",
               "RelativeDocumentMoniker": "learnopengl1\\model.vs",
               "ToolTip": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\model.vs",
               "RelativeToolTip": "learnopengl1\\model.vs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-14T14:34:07.788Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "stb_image.h",
-              "DocumentMoniker": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\stb_image.h",
-              "RelativeDocumentMoniker": "learnopengl1\\stb_image.h",
-              "ToolTip": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\stb_image.h",
-              "RelativeToolTip": "learnopengl1\\stb_image.h",
-              "ViewState": "AgIAAF0OAAAAAAAAAADwv2sOAAA+AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-14T14:20:28.24Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "model.h",
-              "DocumentMoniker": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\model.h",
-              "RelativeDocumentMoniker": "learnopengl1\\model.h",
-              "ToolTip": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\model.h",
-              "RelativeToolTip": "learnopengl1\\model.h",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAALMAAAAJAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-14T14:05:58.323Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "mesh.h",
-              "DocumentMoniker": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\mesh.h",
-              "RelativeDocumentMoniker": "learnopengl1\\mesh.h",
-              "ToolTip": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\mesh.h",
-              "RelativeToolTip": "learnopengl1\\mesh.h",
-              "ViewState": "AgIAAIcAAAAAAAAAAAAAAAgAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-14T13:53:50.019Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Camera.h",
-              "DocumentMoniker": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\Camera.h",
-              "RelativeDocumentMoniker": "learnopengl1\\Camera.h",
-              "ToolTip": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\Camera.h",
-              "RelativeToolTip": "learnopengl1\\Camera.h",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAAwH8AAAAGAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-12-13T05:32:39.133Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "light.vs",
-              "DocumentMoniker": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\light.vs",
-              "RelativeDocumentMoniker": "learnopengl1\\light.vs",
-              "ToolTip": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\light.vs",
-              "RelativeToolTip": "learnopengl1\\light.vs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-12T04:28:54.114Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "light.fs",
-              "DocumentMoniker": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\light.fs",
-              "RelativeDocumentMoniker": "learnopengl1\\light.fs",
-              "ToolTip": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\light.fs",
-              "RelativeToolTip": "learnopengl1\\light.fs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAYAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-11T11:06:20.516Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "cube.vs",
-              "DocumentMoniker": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\cube.vs",
-              "RelativeDocumentMoniker": "learnopengl1\\cube.vs",
-              "ToolTip": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\cube.vs",
-              "RelativeToolTip": "learnopengl1\\cube.vs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-10T05:49:26.889Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "cube.fs",
-              "DocumentMoniker": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\cube.fs",
-              "RelativeDocumentMoniker": "learnopengl1\\cube.fs",
-              "ToolTip": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\cube.fs",
-              "RelativeToolTip": "learnopengl1\\cube.fs",
-              "ViewState": "AgIAAEgAAAAAAAAAAAAAAFcAAAAOAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
-              "WhenOpened": "2024-12-10T05:49:25.365Z",
+              "WhenOpened": "2024-12-15T03:27:48.381Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "model.fs",
+              "DocumentMoniker": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\model.fs",
+              "RelativeDocumentMoniker": "learnopengl1\\model.fs",
+              "ToolTip": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\model.fs",
+              "RelativeToolTip": "learnopengl1\\model.fs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-15T03:27:45.719Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frame.fs",
+              "DocumentMoniker": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\frame.fs",
+              "RelativeDocumentMoniker": "learnopengl1\\frame.fs",
+              "ToolTip": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\frame.fs",
+              "RelativeToolTip": "learnopengl1\\frame.fs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-12-15T05:08:37.005Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
               "Title": "\u6E90.cpp",
               "DocumentMoniker": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\\u6E90.cpp",
               "RelativeDocumentMoniker": "learnopengl1\\\u6E90.cpp",
               "ToolTip": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\\u6E90.cpp",
               "RelativeToolTip": "learnopengl1\\\u6E90.cpp",
-              "ViewState": "AgIAAC0AAAAAAAAAAAAAAD8AAAAuAAAAAAAAAA==",
+              "ViewState": "AgIAAO4AAAAAAAAAAAAowPsAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-09T03:35:59.493Z",
               "EditorCaption": ""
