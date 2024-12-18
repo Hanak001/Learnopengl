@@ -145,7 +145,7 @@
   <ItemGroup>
     <None Include="cube.fs" />
     <None Include="cube.vs" />
-    <None Include="frame.fs" />
+    <None Include="window.fs" />
     <None Include="light.fs" />
     <None Include="light.vs" />
     <None Include="model.fs" />

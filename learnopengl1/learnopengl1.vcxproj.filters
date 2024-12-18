@@ -58,7 +58,7 @@
     <None Include="model.fs">
       <Filter>源文件</Filter>
     </None>
-    <None Include="frame.fs">
+    <None Include="window.fs">
       <Filter>源文件</Filter>
     </None>
   </ItemGroup>
