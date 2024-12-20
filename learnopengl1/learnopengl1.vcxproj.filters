@@ -61,5 +61,11 @@
     <None Include="window.fs">
       <Filter>源文件</Filter>
     </None>
+    <None Include="shader1.vs">
+      <Filter>源文件</Filter>
+    </None>
+    <None Include="shader1.fs">
+      <Filter>源文件</Filter>
+    </None>
   </ItemGroup>
 </Project>
