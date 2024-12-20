@@ -7,8 +7,8 @@
       "RelativeMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|solutionrelative:learnopengl1\\\u6E90.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\frame.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
-      "RelativeMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|solutionrelative:learnopengl1\\frame.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
+      "AbsoluteMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\window.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
+      "RelativeMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|solutionrelative:learnopengl1\\window.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{48FEF4D6-0BAD-408C-AB8E-FB61B9786958}|learnopengl1\\learnopengl1.vcxproj|E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\model.fs||{8A5AA6CF-46E3-4520-A70A-7393D15233E9}",
@@ -36,11 +36,10 @@
               "RelativeDocumentMoniker": "learnopengl1\\model.vs",
               "ToolTip": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\model.vs",
               "RelativeToolTip": "learnopengl1\\model.vs",
-              "ViewState": "AgIAAAAAAAAAAAAAAADwvwoAAAAMAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-12-15T03:27:48.381Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -50,24 +49,23 @@
               "RelativeDocumentMoniker": "learnopengl1\\model.fs",
               "ToolTip": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\model.fs",
               "RelativeToolTip": "learnopengl1\\model.fs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-12-15T03:27:45.719Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "frame.fs",
-              "DocumentMoniker": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\frame.fs",
-              "RelativeDocumentMoniker": "learnopengl1\\frame.fs",
-              "ToolTip": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\frame.fs",
-              "RelativeToolTip": "learnopengl1\\frame.fs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAAIAAAAAAAAAA==",
+              "Title": "window.fs",
+              "DocumentMoniker": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\window.fs",
+              "RelativeDocumentMoniker": "learnopengl1\\window.fs",
+              "ToolTip": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\window.fs",
+              "RelativeToolTip": "learnopengl1\\window.fs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
               "WhenOpened": "2024-12-15T05:08:37.005Z",
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Document",
@@ -77,9 +75,10 @@
               "RelativeDocumentMoniker": "learnopengl1\\\u6E90.cpp",
               "ToolTip": "E:\\learnopengl\\project\\learnopengl1\\learnopengl1\\\u6E90.cpp*",
               "RelativeToolTip": "learnopengl1\\\u6E90.cpp*",
-              "ViewState": "AgIAAO4AAAAAAAAAAAAowAIBAAAaAAAAAAAAAA==",
+              "ViewState": "AgIAAIkAAAAAAAAAAAAowJUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-12-09T03:35:59.493Z",
+              "IsPinned": true,
               "EditorCaption": ""
             }
           ]
