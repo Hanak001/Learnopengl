@@ -2,6 +2,9 @@
 E:\learnopengl\project\learnopengl1\learnopengl1\shader.h(2,10): warning C4067: 预处理器指令后有意外标记 - 应输入换行符
   (编译源文件“源.cpp”)
   
+E:\learnopengl\project\learnopengl1\learnopengl1\源.cpp(95,22): warning C4244: “参数”: 从“double”转换到“unsigned int”，可能丢失数据
+E:\learnopengl\project\learnopengl1\learnopengl1\源.cpp(112,21): warning C4244: “初始化”: 从“double”转换到“float”，可能丢失数据
+E:\learnopengl\project\learnopengl1\learnopengl1\源.cpp(116,24): warning C4244: “初始化”: 从“int”转换到“float”，可能丢失数据
 glfw3.lib(init.obj) : warning LNK4099: 未找到 PDB“”(使用“glfw3.lib(init.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
 glfw3.lib(window.obj) : warning LNK4099: 未找到 PDB“”(使用“glfw3.lib(window.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样
 glfw3.lib(input.obj) : warning LNK4099: 未找到 PDB“”(使用“glfw3.lib(input.obj)”或在“”中寻找)；正在链接对象，如同没有调试信息一样

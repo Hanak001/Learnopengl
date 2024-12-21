@@ -14,7 +14,7 @@ public:
     unsigned int ID;
 
     // 构造器读取并构建着色器
-    Shader(const char* vertexPath, const char* fragmentPath);
+    Shader(const char* vertexPath, const char* fragmentPath, const char* geometryPath);
     // 使用/激活程序
     void use();
     // uniform工具函数
@@ -24,22 +24,27 @@ public:
     void setMat4(const std::string& name, glm::mat4 mat) const;
     void setVec3(const std::string& name, float x, float y, float z) const;
     void setVec3(const std::string& name, glm::vec3 v) const;
+    void setVec2(const std::string& name, glm::vec2 v) const;
 };
 
 
-Shader::Shader(const char* vertexPath, const char* fragmentPath) {
+Shader::Shader(const char* vertexPath, const char* fragmentPath,const char* geometryPath="") {
     std::string vertexCode;
     std::string fragmentCode;
+    std::string geometryCode;
     std::ifstream vShaderFile;
     std::ifstream fShaderFile;
+    std::ifstream gShaderFile;
     // 保证ifstream对象可以抛出异常：
     vShaderFile.exceptions(std::ifstream::failbit | std::ifstream::badbit);
     fShaderFile.exceptions(std::ifstream::failbit | std::ifstream::badbit);
+    gShaderFile.exceptions(std::ifstream::failbit | std::ifstream::badbit);
     try
     {
         // 打开文件
         vShaderFile.open(vertexPath);
         fShaderFile.open(fragmentPath);
+        
         std::stringstream vShaderStream, fShaderStream;
         // 读取文件的缓冲内容到数据流中
         vShaderStream << vShaderFile.rdbuf();
@@ -50,6 +55,15 @@ Shader::Shader(const char* vertexPath, const char* fragmentPath) {
         // 转换数据流到string
         vertexCode = vShaderStream.str();
         fragmentCode = fShaderStream.str();
+
+        if (geometryPath != "") {
+            gShaderFile.open(geometryPath);
+            std::stringstream gShaderStream;
+            gShaderStream << gShaderFile.rdbuf();
+            gShaderFile.close();
+            geometryCode = gShaderStream.str();
+
+        }
     }
     catch (std::ifstream::failure e)
     {
@@ -57,8 +71,9 @@ Shader::Shader(const char* vertexPath, const char* fragmentPath) {
     }
     const char* vShaderCode = vertexCode.c_str();
     const char* fShaderCode = fragmentCode.c_str();
+    
 
-    unsigned int vertex, fragment;
+    unsigned int vertex, fragment, geometry;
     int success;
     char infoLog[512];
 
@@ -74,7 +89,7 @@ Shader::Shader(const char* vertexPath, const char* fragmentPath) {
         std::cout << "ERROR::SHADER::VERTEX::COMPILATION_FAILED\n" << infoLog << std::endl;
     };
 
-    // 顶点着色器
+    // 片段着色器
     fragment = glCreateShader(GL_FRAGMENT_SHADER);
     glShaderSource(fragment, 1, &fShaderCode, NULL);
     glCompileShader(fragment);
@@ -85,11 +100,30 @@ Shader::Shader(const char* vertexPath, const char* fragmentPath) {
         glGetShaderInfoLog(fragment, 512, NULL, infoLog);
         std::cout << "ERROR::SHADER::FRAGMENT::COMPILATION_FAILED\n" << infoLog << std::endl;
     };
+    //几何着色器
+    if (geometryPath != "") {
+        geometry = glCreateShader(GL_GEOMETRY_SHADER);
+        const char* gShaderCode = geometryCode.c_str();
+        glShaderSource(geometry, 1, &gShaderCode, NULL);
+        glCompileShader(geometry);
+        // 打印编译错误（如果有的话）
+        glGetShaderiv(geometry, GL_COMPILE_STATUS, &success);
+        if (!success)
+        {
+            glGetShaderInfoLog(geometry, 512, NULL, infoLog);
+            std::cout << "ERROR::SHADER::FRAGMENT::COMPILATION_FAILED\n" << infoLog << std::endl;
+        };
+
+    }
+    
     // 着色器程序
 
     ID = glCreateProgram();
     glAttachShader(ID, vertex);
     glAttachShader(ID, fragment);
+    if (geometryPath != "") {
+        glAttachShader(ID, geometry);
+    }
     glLinkProgram(ID);
     // 打印连接错误（如果有的话）
     glGetProgramiv(ID, GL_LINK_STATUS, &success);
@@ -102,6 +136,9 @@ Shader::Shader(const char* vertexPath, const char* fragmentPath) {
     // 删除着色器，它们已经链接到我们的程序中了，已经不再需要了
     glDeleteShader(vertex);
     glDeleteShader(fragment);
+    if (geometryPath != "") {
+        glDeleteShader(geometry);
+    }
 }
 
 void Shader::use()
@@ -133,4 +170,8 @@ void Shader::setVec3(const std::string& name, float x,float y,float z) const
 void Shader::setVec3(const std::string& name, glm::vec3 v) const
 {
     glad_glUniform3fv(glGetUniformLocation(ID, name.c_str()), 1, glm::value_ptr(v));
+}
+void Shader::setVec2(const std::string& name, glm::vec2 v) const
+{
+    glad_glUniform2fv(glGetUniformLocation(ID, name.c_str()), 1, glm::value_ptr(v));
 }

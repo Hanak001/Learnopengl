@@ -145,6 +145,7 @@
   <ItemGroup>
     <None Include="cube.fs" />
     <None Include="cube.vs" />
+    <None Include="model.gs" />
     <None Include="shader1.fs" />
     <None Include="shader1.vs" />
     <None Include="window.fs" />

@@ -67,5 +67,8 @@
     <None Include="shader1.fs">
       <Filter>源文件</Filter>
     </None>
+    <None Include="model.gs">
+      <Filter>源文件</Filter>
+    </None>
   </ItemGroup>
 </Project>
